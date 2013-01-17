@@ -1,0 +1,29 @@
+# == Schema Information
+#
+# Table name: cards
+#
+#  id              :integer          not null, primary key
+#  user_id         :integer
+#  color           :string(255)
+#  content         :string(255)
+#  price           :integer
+#  transferability :boolean
+#  created_at      :datetime         not null
+#  updated_at      :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  user_id: 1
+  color: MyString
+  content: MyString
+  price: 1
+  transferability: false
+
+two:
+  user_id: 1
+  color: MyString
+  content: MyString
+  price: 1
+  transferability: false

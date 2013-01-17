@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>User:</b>
+  <%= @card.user_id %>
+</p>
+
+<p>
+  <b>Color:</b>
+  <%= @card.color %>
+</p>
+
+<p>
+  <b>Content:</b>
+  <%= @card.content %>
+</p>
+
+<p>
+  <b>Price:</b>
+  <%= @card.price %>
+</p>
+
+<p>
+  <b>Transferability:</b>
+  <%= @card.transferability %>
+</p>
+
+
+<%= link_to 'Edit', edit_card_path(@card) %> |
+<%= link_to 'Back', cards_path %>
